@@ -9,7 +9,7 @@ export const products: Product[] = [
     rating: 5,
     category: 'Phones',
     available: true,
-    link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113807195/',
+    link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?ysclid=mlrji5pgp9991794680',
     image: 'https://ir.ozone.ru/s3/multimedia-1-f/wc1000/7669840299.jpg',
     images: [
       'https://ir.ozone.ru/s3/multimedia-1-f/wc1000/7669840227.jpg',
@@ -25,7 +25,7 @@ export const products: Product[] = [
     rating: 5,
     category: 'Phones',
     available: true,
-    link: 'https://kaspi.kz/shop/p/samsung-galaxy-s24-128gb-chernyi-116044311/',
+    link: 'https://kaspi.kz/shop/p/samsung-galaxy-s24-5g-8-gb-256-gb-chernyi-podarok-116004286/?ysclid=mlrjji4rsn290681503',
     image: 'https://ir.ozone.ru/s3/multimedia-1-b/wc1000/7361995727.jpg',
     images: [
       'https://ir.ozone.ru/s3/multimedia-1-i/wc1000/7149034854.jpg',
@@ -41,7 +41,7 @@ export const products: Product[] = [
     rating: 4,
     category: 'Phones',
     available: true,
-    link: 'https://kaspi.kz/shop/p/xiaomi-redmi-note-13-8-gb-256-gb-chernyi-116659250/',
+    link: 'https://kaspi.kz/shop/p/xiaomi-redmi-note-13-pro-5g-nfc-16-gb-512-gb-chernyi-118366848/?c=750000000',
     image: 'https://ir.ozone.ru/s3/multimedia-1-r/wc1000/7456597011.jpg',
     images: [
       'https://ir.ozone.ru/s3/multimedia-1-5/wc1000/7456596701.jpg',
@@ -57,7 +57,7 @@ export const products: Product[] = [
     rating: 4,
     category: 'Laptops',
     available: true,
-    link: 'https://kaspi.kz/shop/p/lenovo-ideapad-3-15iau7-82rk00l9rk-seryi-111105787/',
+    link: 'https://kaspi.kz/shop/p/xiaomi-redmi-note-13-pro-5g-nfc-16-gb-512-gb-chernyi-118366848/?c=750000000',
     image: 'https://ir.ozone.ru/s3/multimedia-1-p/wc1000/8926695133.jpg',
     images: [
       'https://ir.ozone.ru/s3/multimedia-1-h/wc1000/8926797617.jpg',
@@ -73,7 +73,7 @@ export const products: Product[] = [
     rating: 4,
     category: 'Headphones',
     available: true,
-    link: 'https://kaspi.kz/shop/p/apple-airpods-2-belyi-4800021/',
+    link: 'https://kaspi.kz/shop/p/samsung-galaxy-s24-5g-8-gb-256-gb-chernyi-podarok-116004286/?ysclid=mlrjji4rsn290681503',
     image: 'https://ir.ozone.ru/s3/multimedia-1-5/wc1000/8844092825.jpg',
     images: [
       'https://ir.ozone.ru/s3/multimedia-1-7/wc1000/9048930631.jpg',
@@ -89,7 +89,7 @@ export const products: Product[] = [
     rating: 4,
     category: 'Headphones',
     available: true,
-    link: 'https://kaspi.kz/shop/p/jbl-tune-510bt-chernyi-101920328/',
+    link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?ysclid=mlrji5pgp9991794680',
     image: 'https://ir.ozone.ru/s3/multimedia-1-j/wc1000/7722794287.jpg',
     images: [
       'https://ir.ozone.ru/s3/multimedia-1-j/wc1000/7722794287.jpg',
@@ -105,7 +105,7 @@ export const products: Product[] = [
     rating: 5,
     category: 'Accessories',
     available: true,
-    link: 'https://kaspi.kz/shop/p/logitech-g102-lightsync-chernyi-6801247/',
+    link: 'https://kaspi.kz/shop/p/xiaomi-redmi-note-13-pro-5g-nfc-16-gb-512-gb-chernyi-118366848/?c=750000000',
     image: 'https://ir.ozone.ru/s3/multimedia-1-l/wc1000/8090517405.jpg',
     images: [
       'https://ir.ozone.ru/s3/multimedia-1-l/wc1000/8090517405.jpg',
@@ -121,7 +121,7 @@ export const products: Product[] = [
     rating: 4,
     category: 'Accessories',
     available: false,
-    link: 'https://kaspi.kz/shop/p/redragon-kumara-rgb-chernyi-100057704/',
+    link: 'https://kaspi.kz/shop/p/samsung-galaxy-s24-5g-8-gb-256-gb-chernyi-podarok-116004286/?ysclid=mlrjji4rsn290681503',
     image: 'https://ir.ozone.ru/s3/multimedia-c/wc1000/6885941628.jpg',
     images: [
       'https://ir.ozone.ru/s3/multimedia-c/wc1000/6885941628.jpg',
@@ -137,7 +137,7 @@ export const products: Product[] = [
     rating: 4,
     category: 'Accessories',
     available: true,
-    link: 'https://kaspi.kz/shop/p/xiaomi-mi-power-bank-3-10000mah-chernyi-4803345/',
+    link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?ysclid=mlrji5pgp9991794680',
     image: 'https://ir.ozone.ru/s3/multimedia-1-8/wc1000/7349625944.jpg',
     images: [
       'https://ir.ozone.ru/s3/multimedia-1-8/wc1000/7349625944.jpg',
@@ -153,7 +153,7 @@ export const products: Product[] = [
     rating: 5,
     category: 'Wearables',
     available: true,
-    link: 'https://kaspi.kz/shop/p/apple-watch-se-2022-40mm-starlight-111134855/',
+    link: 'https://kaspi.kz/shop/p/xiaomi-redmi-note-13-pro-5g-nfc-16-gb-512-gb-chernyi-118366848/?c=750000000',
     image: 'https://ir.ozone.ru/s3/multimedia-1-i/wc1000/8952544530.jpg',
     images: [
       'https://ir.ozone.ru/s3/multimedia-1-i/wc1000/8952544530.jpg',
@@ -169,7 +169,7 @@ export const products: Product[] = [
     rating: 4,
     category: 'Home',
     available: true,
-    link: 'https://kaspi.kz/shop/p/xiaomi-mi-robot-vacuum-mop-2-pro-belyi-103022026/',
+    link: 'https://kaspi.kz/shop/p/samsung-galaxy-s24-5g-8-gb-256-gb-chernyi-podarok-116004286/?ysclid=mlrjji4rsn290681503',
     image: 'https://ir.ozone.ru/s3/multimedia-1-3/wc1000/8819446395.jpg',
     images: [
       'https://ir.ozone.ru/s3/multimedia-1-3/wc1000/8819446395.jpg',
@@ -185,7 +185,7 @@ export const products: Product[] = [
     rating: 4,
     category: 'Monitors',
     available: true,
-    link: 'https://kaspi.kz/shop/p/samsung-lf24t350f-24-chernyi-100703427/',
+    link: 'https://kaspi.kz/shop/p/apple-iphone-15-128gb-chernyi-113137790/?ysclid=mlrji5pgp9991794680',
     image: 'https://ir.ozone.ru/s3/multimedia-1-h/wc1000/7724884337.jpg',
     images: [
       'https://ir.ozone.ru/s3/multimedia-1-h/wc1000/7724884337.jpg',
