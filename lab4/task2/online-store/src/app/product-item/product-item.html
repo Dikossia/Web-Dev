@@ -26,6 +26,18 @@
       </ng-template>
     </div>
 
+    <div class="actions">
+      <button class="likeBtn" (click)="like()">❤ {{ product.likes }}</button>
+
+      <!-- ✅ добавил: скрыть Delete, когда лайков 10 или больше -->
+      <button
+        class="delBtn"
+        *ngIf="product.likes < 10"
+        (click)="onDelete()">
+        Delete
+      </button>
+    </div>
+
     <a class="btn" [href]="product.link" target="_blank" rel="noopener">
       Open on Kaspi
     </a>

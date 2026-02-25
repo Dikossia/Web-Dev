@@ -11,9 +11,16 @@ import { CommonModule } from '@angular/common';
 export class CategoryList {
   @Input() categories: string[] = [];
   @Input() activeCategory: string = 'All';
+  @Input() isLowRatingSort: boolean = false;
+
   @Output() categoryChange = new EventEmitter<string>();
+  @Output() sortLowRating = new EventEmitter<void>();
 
   selectCategory(cat: string) {
     this.categoryChange.emit(cat);
+  }
+
+  onSortLowRating() {
+    this.sortLowRating.emit();
   }
 }

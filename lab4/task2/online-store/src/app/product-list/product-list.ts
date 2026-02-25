@@ -1,33 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { products } from '../data/products';
-import { Product } from '../models/product';
-
 import { ProductItem } from '../product-item/product-item';
-import { CategoryList } from '../category-list/category-list';
+import { Product } from '../models/product';
 
 @Component({
   selector: 'app-product-list',
   standalone: true,
-  imports: [CommonModule, ProductItem, CategoryList],
+  imports: [CommonModule, ProductItem],
   templateUrl: './product-list.html',
   styleUrl: './product-list.css'
 })
 export class ProductList {
-  products: Product[] = products;
-  activeCategory: string = 'All';
+  @Input() products: Product[] = [];
 
-  get categories(): string[] {
-    return Array.from(new Set(this.products.map(p => p.category)));
-  }
+  @Output() delete = new EventEmitter<number>();
 
-  get filteredProducts(): Product[] {
-    if (this.activeCategory === 'All') return this.products;
-    return this.products.filter(p => p.category === this.activeCategory);
-  }
-
-  onCategoryChange(cat: string) {
-    this.activeCategory = cat;
+  onDelete(productId: number) {
+    this.delete.emit(productId);
   }
 }

@@ -1,15 +1,11 @@
-<h2 class="heading">Online Store</h2>
-
-<app-category-list
-  [categories]="categories"
-  [activeCategory]="activeCategory"
-  (categoryChange)="onCategoryChange($event)">
-</app-category-list>
-
-<p *ngIf="filteredProducts.length === 0" class="empty">
-  No products found.
+<p *ngIf="products.length === 0" class="empty">
+  No products in this category.
 </p>
 
-<div class="grid">
-  <app-product-item *ngFor="let p of filteredProducts" [product]="p"></app-product-item>
+<div class="grid" *ngIf="products.length > 0">
+  <app-product-item
+    *ngFor="let p of products"
+    [product]="p"
+    (delete)="onDelete($event)">
+  </app-product-item>
 </div>

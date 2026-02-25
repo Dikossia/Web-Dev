@@ -3,3 +3,36 @@
   margin: 0 auto;
   padding: 16px;
 }
+
+.title {
+  text-align: center;
+  margin: 0 0 20px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.cats {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.catBtn {
+  padding: 10px 14px;
+  border: 1px solid #cfcfcf;
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.catBtn:hover {
+  border-color: #777;
+}
+
+.catBtn.active {
+  background: #111;
+  color: white;
+  border-color: #111;
+  font-weight: 600;
+}

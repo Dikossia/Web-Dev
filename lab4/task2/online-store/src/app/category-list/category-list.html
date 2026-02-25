@@ -10,4 +10,8 @@
     (click)="selectCategory(c)">
     {{ c }}
   </button>
+
+  <button class="cat" (click)="onSortLowRating()">
+    {{isLowRatingSort ? 'sort of' : 'sort on '}}
+  </button>
 </div>
