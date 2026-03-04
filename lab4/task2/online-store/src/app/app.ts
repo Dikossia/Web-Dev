@@ -49,6 +49,7 @@ export class App {
       this.selectedProducts = [];
       return;
     }
+  
 
     this.selectedProducts = this.allProducts.filter(
       p => p.categoryId === this.selectedCategoryId
